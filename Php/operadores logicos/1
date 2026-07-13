@@ -1,0 +1,8 @@
+<?php
+$promedio = 16;
+$ingresos = 300;
+if ($promedio >= 16 && $ingresos < 500){
+        echo "Felicidades, obtuviste tu beca";
+}else{
+    echo "Lo sentimos, no obtuviste tu beca";
+}
